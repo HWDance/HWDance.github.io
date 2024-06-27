@@ -11,26 +11,34 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* PhD in Machine Learning, Gatsby Unit, UCL, 2027 (expected)
+* MSc in Computational Statistics and Machine Learning, UCL, 2021
+* MSc in Economics, UCL, 2016
+* BA. in Economics and International Relations, 2015
+* GDip in Mathematics and Statistics, Birkbeck 2022
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* December 2021-May 2022
+  * PwC, London
+  * Econometrician (Senior Associate)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* August 2016-July 2020
+  * PwC, London
+  * Econometrician (Associate - Senior Associate)
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* July 2015-August 2015
+  * KPMG, Helsinki
+  * Strategy Group Intern
+
+* June 2015 - July 2015
+  * Grant Thornton, London
+  * Corporate Finance Intern
+ 
+* June 2014 - July 2014
+  * Grant Thornton, London
+  * Corporate Finance Intern
+  
   
 Skills
 ======
@@ -61,4 +69,3 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
