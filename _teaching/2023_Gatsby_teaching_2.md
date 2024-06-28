@@ -6,6 +6,7 @@ permalink: /teaching/2023-autumn-teaching-1
 venue: "UCL, Gatsby Unit"
 date: 2023-10-01
 location: "London, United Kingdom"
+---
 
 Responsibilities: Ran tutorials, marked coursework and exams
 
