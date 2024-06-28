@@ -12,10 +12,10 @@ redirect_from:
 Education
 ======
 * PhD in Machine Learning, Gatsby Unit, UCL, 2027 (expected)
-* MSc in Computational Statistics and Machine Learning, UCL, 2021
-* MSc in Economics, UCL, 2016
-* BA. in Economics and International Relations, 2015
-* GDip in Mathematics and Statistics, Birkbeck 2022
+* MSc in Computational Statistics and Machine Learning, UCL, 2021 (Distinction, Dean's List)
+* MSc in Economics, UCL, 2016 (Distinction)
+* BA. in Economics and International Relations, University of Birmingham, 2015 (First Class Honours)
+* GDip in Mathematics and Statistics, Birkbeck 2022 (Distinction)
 
 Work experience
 ======
