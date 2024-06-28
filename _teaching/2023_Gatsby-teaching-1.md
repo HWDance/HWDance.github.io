@@ -8,4 +8,4 @@ date: 2023-10-01
 location: "London, United Kingdom"
 ---
 
-Responsibilities: Ran tutorials, marked coursework and exams.
+Teaching assistant. [Course link](https://www.gatsby.ucl.ac.uk/~gretton/coursefiles/rkhscourse.html)
