@@ -8,13 +8,4 @@ date: 2023-10-01
 location: "London, United Kingdom"
 ---
 
-Responsibilities: Ran tutorials, marked coursework and exams
-
-# Heading 1
-#======
-
-#Heading 2
-#======
-
-#Heading 3
-#======
+Teaching assistant. [Course link](https://www.gatsby.ucl.ac.uk/teaching/courses/ml1/)
