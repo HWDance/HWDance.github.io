@@ -8,4 +8,4 @@ date: 2023-10-01
 location: "London, United Kingdom"
 ---
 
-Responsibilities: Running tutorials, marking coursework and exams.
+Responsibilities: Ran tutorials, marked coursework and exams.
