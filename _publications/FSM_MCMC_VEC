@@ -1,7 +1,7 @@
 ---
 title: "Efficiently Vectorized MCMC on Modern Accelerators"
 collection: publications
-link: /publication/FSM_MCMC.pdf
+link: 'https://arxiv.org/abs/2503.17405'
 excerpt: Selected for Spotlight (Top ~10% Submissions)
 date: 2025-05-01
 venue: 'International Conference on Machine Learning, 2025'
