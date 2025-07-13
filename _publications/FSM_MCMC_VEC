@@ -2,11 +2,10 @@
 title: "Efficiently Vectorized MCMC on Modern Accelerators"
 collection: publications
 permalink: /publication/FSM_MCMC.pdf
-excerpt: ''
-date: 2024-05-24
-venue: 'Pre-Print'
-paperurl: 'FSM_MCMC.pdf'
-citation: 'Dance, H., Glaser, P, Orbanz, P and Adams, R. (2024). &quot; Efficiently Vectorized MCMC on Modern Accelerators.&quot;.'
+excerpt: Selected for Spotlight (Top ~10% Submissions)
+date: 2025-05-01
+venue: 'International Conference on Machine Learning, 2025'
+slidesurl: 'https://www.youtube.com/watch?v=15WiBBH2WL8'
+paperurl: 'https://arxiv.org/abs/2503.17405'
+citation: 'Dance, H., Glaser, P, Orbanz, P and Adams, R. (2025). &quot; Efficiently Vectorized MCMC on Modern Accelerators. &quot; International Conference on Machine Learning. PMLR, 2025'
 ---
-
-
