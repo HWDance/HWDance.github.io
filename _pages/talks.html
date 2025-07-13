@@ -1,6 +1,6 @@
 ---
-layout: page            # plain page chrome, not the archive layout
-title: "Talks"          # <h1 class="page__title">Talks</h1> appears automatically
+layout: page
+title: "Talks"
 permalink: /talks/
 author_profile: true
 ---
@@ -9,12 +9,11 @@ author_profile: true
 {%- assign talks = site.talks | sort: "date" | reverse -%}
 {% for t in talks %}
   <li>
-    <!-- title styled like the publication titles -->
     <span class="archive__item-title">
       <a href="{{ t.url | relative_url }}">{{ t.title }}</a>
     </span>
     {%- if t.venue or t.location or t.date -%}
-      &nbsp;—&nbsp;
+      — 
       {%- if t.venue    %}{{ t.venue }}{% endif -%}
       {%- if t.location %}{% if t.venue %}, {% endif %}{{ t.location }}{% endif -%}
       {%- if t.date     %} ({{ t.date | date: "%b %Y" }}){% endif -%}
