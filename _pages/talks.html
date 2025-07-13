@@ -1,16 +1,29 @@
 ---
-layout: archive
-title: "Talks and presentations"
+layout: page                     # plain page chrome, no archive layout
+title: "Talks & Presentations"
 permalink: /talks/
-author_profile: true
+author_profile: true             # keep your sidebar if you like
 ---
 
-{% if site.talkmap_link == true %}
+{% comment %}---  Bullet list of talks -----------------------------{% endcomment %}
+<ul class="talks-list">
+{%- assign talks = site.talks | sort: "date" | reverse -%}
+{% for t in talks %}
+  <li>
+    <!-- title linked to the talk’s own page (permalink) -->
+    <a href="{{ t.url | relative_url }}" class="talk-title">{{ t.title }}</a>
+    {%- if t.venue or t.location or t.date -%}
+      — 
+      {%- if t.venue     %}{{ t.venue }}{% endif -%}
+      {%- if t.location  %}{% if t.venue %}, {% endif %}{{ t.location }}{% endif -%}
+      {%- if t.date      %} ({{ t.date | date: "%b %Y" }}){% endif -%}
+    {%- endif -%}
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
-{% endif %}
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+    {%- if t.slidesurl or t.paperurl -%}
+      <br>
+      {%- if t.slidesurl %}<a href="{{ t.slidesurl }}">slides</a>{% endif -%}
+      {%- if t.paperurl  %}{% if t.slidesurl %} • {% endif %}<a href="{{ t.paperurl }}">paper</a>{% endif -%}
+    {%- endif -%}
+  </li>
 {% endfor %}
+</ul>
