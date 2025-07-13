@@ -1,0 +1,13 @@
+# Each dash starts a new talk
+- title: Efficiently Vectorized MCMC on Modern Accelerators
+  venue: ProbAI Seminar
+  location: Online
+  date: 2025-12-14
+
+- title: Fast and Scalable Spike-and-Slab Variational Inference for High Dimensional Gaussian Processes
+  venue: AISTATS
+  location: Online (due to Covid)
+  date: 2022-05-03
+  paper : https://arxiv.org/abs/2103.12345
+
+
