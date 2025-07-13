@@ -1,22 +1,23 @@
 ---
-layout: page                     # plain page chrome, no archive layout
-title: "Talks & Presentations"
+layout: page            # plain page chrome, not the archive layout
+title: "Talks"          # <h1 class="page__title">Talks</h1> appears automatically
 permalink: /talks/
-author_profile: true             # keep your sidebar if you like
+author_profile: true
 ---
 
-{% comment %}---  Bullet list of talks -----------------------------{% endcomment %}
 <ul class="talks-list">
 {%- assign talks = site.talks | sort: "date" | reverse -%}
 {% for t in talks %}
   <li>
-    <!-- title linked to the talk’s own page (permalink) -->
-    <a href="{{ t.url | relative_url }}" class="talk-title">{{ t.title }}</a>
+    <!-- title styled like the publication titles -->
+    <span class="archive__item-title">
+      <a href="{{ t.url | relative_url }}">{{ t.title }}</a>
+    </span>
     {%- if t.venue or t.location or t.date -%}
-      — 
-      {%- if t.venue     %}{{ t.venue }}{% endif -%}
-      {%- if t.location  %}{% if t.venue %}, {% endif %}{{ t.location }}{% endif -%}
-      {%- if t.date      %} ({{ t.date | date: "%b %Y" }}){% endif -%}
+      &nbsp;—&nbsp;
+      {%- if t.venue    %}{{ t.venue }}{% endif -%}
+      {%- if t.location %}{% if t.venue %}, {% endif %}{{ t.location }}{% endif -%}
+      {%- if t.date     %} ({{ t.date | date: "%b %Y" }}){% endif -%}
     {%- endif -%}
 
     {%- if t.slidesurl or t.paperurl -%}
