@@ -1,7 +1,8 @@
 ---
 title: "Fast and Scalable Spike and Slab Variable Selection in High Dimensional Gaussian Processes"
 collection: publications
-permalink: /publication/2022-05-03-Fast and Scalable Spike and Slab Variable Selection in High Dimensional Gaussian Processes
+permalink: /publication/SSVGP
+link: https://arxiv.org/abs/2103.12345                # ← add this line
 excerpt: Selected for Oral Presentation (Top ~10% Submissions)
 date: 2022-05-03
 venue: International Conference on Artificial Intelligence and Statistics
