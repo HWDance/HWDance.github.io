@@ -6,6 +6,6 @@ excerpt: Selected for Spotlight (Top ~10% Submissions)
 date: 2025-05-01
 venue: 'International Conference on Machine Learning, 2025'
 slidesurl: 'https://www.youtube.com/watch?v=15WiBBH2WL8'
-paperurl: 'https://arxiv.org/abs/2503.17405'
+paperurl: 'https://arxiv.org/pdf/2503.17405'
 citation: 'Dance, H., Glaser, P, Orbanz, P and Adams, R. (2025). &quot; Efficiently Vectorized MCMC on Modern Accelerators. &quot; International Conference on Machine Learning. PMLR, 2025'
 ---
