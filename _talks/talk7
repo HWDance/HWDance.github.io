@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/talk7
 slides: /files/slides/Cocycles_Presentation__CausaliT.pdf
-venue: "Causal Modelling and Inference Annual Workshop, CAUSALI-T-AI, Intitut Henri Poincare}"
+venue: "Causal Modelling and Inference Annual Workshop, CAUSALI-T-AI, Intitut Henri Poincare"
 date: 2025-07-25
 location: "Paris, France"
 ---
