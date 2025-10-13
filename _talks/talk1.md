@@ -3,7 +3,7 @@ title: "Fast and Scalable Spike and Slab Variational Inference in High Dimension
 collection: talks
 type: "Talk"
 permalink: /talks/talk2
-venue: "AISTATS Conference 2022"
+venue: "AISTATS 2022"
 date: 2022-03-28
 location: "Held online due to COVID"
 ---
