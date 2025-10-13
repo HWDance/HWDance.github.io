@@ -8,4 +8,4 @@ date: 2022-03-28
 location: "Held online due to COVID"
 ---
 
-[See the talk here](https://slideslive.com/38980850/fast-and-scalable-spike-and-slab-variable-selection-in-highdimensional-gaussian-processes)
+Oral Presentation for AISTATS 2022 - [see the talk here](https://slideslive.com/38980850/fast-and-scalable-spike-and-slab-variable-selection-in-highdimensional-gaussian-processes)
