@@ -10,4 +10,4 @@ location: "Paris, France"
 ---
 
 Presented at the CAUSALI-T-AI workshop, Institut Henri Poincaré, Paris.  
-[📄 Download slides](/files/slides/Cocycles_Presentation__CausaliT.pdf)
+[📄 Download slides](/files/Cocycles_Presentation__CausaliT.pdf)
