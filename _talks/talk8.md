@@ -6,7 +6,7 @@ permalink: /talks/talk8
 slides: /files/slides/Cocycles_Presentation__CausaliT.pdf
 venue: "Saarland University, Probablistic Machine Learning Group"
 date: 2025-10-22
-location: "Online
+location: "Online"
 ---
 [📄 Download slides](/files/Cocycles_Presentation__CausaliT.pdf)
 
