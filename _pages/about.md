@@ -25,6 +25,18 @@ redirect_from:
   <article class="home-project-card">
     <div class="home-project-figure">
       <img src="{{ '/images/home/debiased_flow_matching.png' | relative_url }}" alt="Debiased flow-matching schematic and CelebA counterfactual generation examples">
+      <svg viewBox="0 0 360 150" role="img" aria-hidden="true">
+        <defs>
+          <marker id="arrow-flow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" /></marker>
+        </defs>
+        <g class="svg-muted">
+          <circle cx="42" cy="49" r="8"/><circle cx="67" cy="77" r="8"/><circle cx="40" cy="102" r="8"/><circle cx="82" cy="42" r="8"/><circle cx="89" cy="106" r="8"/>
+          <circle cx="272" cy="43" r="8"/><circle cx="307" cy="67" r="8"/><circle cx="271" cy="91" r="8"/><circle cx="316" cy="105" r="8"/><circle cx="294" cy="122" r="8"/>
+        </g>
+        <path class="svg-accent-line" d="M115 78 C155 35, 204 120, 248 76" marker-end="url(#arrow-flow)"/>
+        <text x="28" y="135">observational</text><text x="260" y="135">interventional</text>
+      </svg>
+    </div>
     </div>
     <div class="home-project-body">
       <div class="home-project-meta">Generative modelling · causal inference</div>
@@ -37,6 +49,18 @@ redirect_from:
   <article class="home-project-card">
     <div class="home-project-figure">
       <img src="{{ '/images/home/cocycles.png' | relative_url }}" alt="Cocycle transports connecting intervention-indexed outcome distributions">
+      <svg viewBox="0 0 360 150" role="img" aria-hidden="true">
+        <defs>
+          <marker id="arrow-cocycle" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" /></marker>
+        </defs>
+        <circle class="svg-node" cx="66" cy="105" r="22"/><circle class="svg-node" cx="180" cy="38" r="22"/><circle class="svg-node" cx="294" cy="105" r="22"/>
+        <path class="svg-accent-line" d="M85 92 L158 50" marker-end="url(#arrow-cocycle)"/>
+        <path class="svg-accent-line" d="M202 50 L275 92" marker-end="url(#arrow-cocycle)"/>
+        <path class="svg-muted-line" d="M90 112 L270 112" marker-end="url(#arrow-cocycle)"/>
+        <text x="58" y="112">x</text><text x="172" y="45">x′</text><text x="286" y="112">x″</text>
+        <text x="129" y="137">composition = direct map</text>
+      </svg>
+    </div>
     </div>
     <div class="home-project-body">
       <div class="home-project-meta">Counterfactuals · invariance · transport</div>
@@ -49,6 +73,14 @@ redirect_from:
   <article class="home-project-card">
     <div class="home-project-figure">
       <img src="{{ '/images/home/interventional_processes.png' | relative_url }}" alt="Interventional-process uncertainty quantification with calibrated posterior bands and intervention samples">
+      <svg viewBox="0 0 360 150" role="img" aria-hidden="true">
+        <path class="svg-band" d="M22 110 C75 82, 108 55, 158 66 C216 79, 249 24, 338 39 L338 72 C254 61, 220 111, 158 96 C105 84, 72 112, 22 132 Z"/>
+        <path class="svg-accent-line" d="M22 121 C75 94, 108 68, 158 80 C216 94, 249 40, 338 54"/>
+        <line class="svg-axis" x1="22" y1="136" x2="340" y2="136"/><line class="svg-axis" x1="22" y1="136" x2="22" y2="20"/>
+        <circle class="svg-point" cx="79" cy="92" r="4"/><circle class="svg-point" cx="125" cy="76" r="4"/><circle class="svg-point" cx="206" cy="88" r="4"/><circle class="svg-point" cx="283" cy="57" r="4"/>
+        <text x="280" y="126">intervention</text>
+      </svg>
+    </div>
     </div>
     <div class="home-project-body">
       <div class="home-project-meta">Uncertainty quantification · Gaussian processes</div>
@@ -61,6 +93,18 @@ redirect_from:
   <article class="home-project-card">
     <div class="home-project-figure">
       <img src="{{ '/images/home/fsm_mcmc.png' | relative_url }}" alt="Finite-state-machine representation of iterative MCMC control flow">
+      <svg viewBox="0 0 360 150" role="img" aria-hidden="true">
+        <defs>
+          <marker id="arrow-fsm" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" /></marker>
+        </defs>
+        <rect class="svg-state" x="30" y="48" width="63" height="42" rx="8"/><rect class="svg-state" x="145" y="48" width="63" height="42" rx="8"/><rect class="svg-state" x="260" y="48" width="63" height="42" rx="8"/>
+        <path class="svg-accent-line" d="M93 69 L142 69" marker-end="url(#arrow-fsm)"/><path class="svg-accent-line" d="M208 69 L257 69" marker-end="url(#arrow-fsm)"/>
+        <path class="svg-muted-line" d="M176 47 C175 15, 260 15, 289 45" marker-end="url(#arrow-fsm)"/>
+        <text x="46" y="75">INIT</text><text x="158" y="75">STEP</text><text x="273" y="75">DONE</text>
+        <g class="svg-muted"><circle cx="72" cy="118" r="5"/><circle cx="100" cy="118" r="5"/><circle cx="128" cy="118" r="5"/><circle cx="156" cy="118" r="5"/><circle cx="184" cy="118" r="5"/><circle cx="212" cy="118" r="5"/><circle cx="240" cy="118" r="5"/><circle cx="268" cy="118" r="5"/></g>
+        <text x="102" y="141">asynchronous parallel chains</text>
+      </svg>
+    </div>
     </div>
     <div class="home-project-body">
       <div class="home-project-meta">Probabilistic ML · JAX · accelerators</div>

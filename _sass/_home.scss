@@ -46,23 +46,84 @@
   flex-direction: column;
 }
 
- .home-project-figure {
+.home-project-figure {
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 142px;
   height: 205px;
   padding: 0.75rem;
   background: #fff;
   border-bottom: 1px solid mix(#fff, $gray, 78%);
 }
 
-.home-project-figure img {
+.home-project-figure img,
+.home-project-figure svg {
   display: block;
+}
+
+.home-project-figure img {
   width: auto;
   max-width: 100%;
   height: auto;
   max-height: 185px;
   object-fit: contain;
+}
+
+.home-project-figure svg {
+  width: 100%;
+  max-width: 360px;
+  height: 142px;
+  font-family: inherit;
+  font-size: 12px;
+  fill: $gray;
+}
+
+.home-project-figure .svg-accent-line,
+.home-project-figure .svg-muted-line,
+.home-project-figure .svg-axis {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.home-project-figure .svg-accent-line {
+  stroke: $link-color;
+  stroke-width: 2.4;
+}
+
+.home-project-figure .svg-muted-line {
+  stroke: mix(#fff, $gray, 25%);
+  stroke-width: 1.8;
+}
+
+.home-project-figure .svg-axis {
+  stroke: mix(#fff, $gray, 35%);
+  stroke-width: 1.2;
+}
+
+.home-project-figure marker path {
+  fill: $link-color;
+}
+
+.home-project-figure .svg-muted circle,
+.home-project-figure .svg-point {
+  fill: mix(#fff, $link-color, 22%);
+  stroke: $link-color;
+  stroke-width: 1.2;
+}
+
+.home-project-figure .svg-node,
+.home-project-figure .svg-state {
+  fill: #fff;
+  stroke: $link-color;
+  stroke-width: 2;
+}
+
+.home-project-figure .svg-band {
+  fill: mix(#fff, $link-color, 82%);
+  stroke: none;
+}
 }
 
 .home-project-body {
@@ -165,10 +226,20 @@
   }
 
   .home-project-figure {
+  }
+
+  .home-project-figure {
+    min-height: 125px;
     height: 185px;
   }
 
   .home-project-figure img {
     max-height: 165px;
+  }
+
+  .home-project-figure svg {
+    height: 125px;
+  }
+
   }
 }
