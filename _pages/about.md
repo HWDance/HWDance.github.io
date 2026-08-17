@@ -15,7 +15,7 @@ redirect_from:
 
 <div class="home-links" aria-label="Research profile links">
   <a class="btn btn--primary" href="/cv/">CV</a>
-  <a class="btn" href="https://scholar.google.co.uk/citations?user=h4Q6RJEAAAAJ&hl=en&oi=ao">Google Scholar</a>
+  <a class="btn" href="https://scholar.google.co.uk/citations?user=h4Q6RJEAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a>
   <a class="btn" href="https://github.com/HWDance">GitHub</a>
 </div>
 
@@ -23,64 +23,63 @@ redirect_from:
 
 <div class="home-project-grid">
   <article class="home-project-card">
-    <div class="home-project-figure">
-      <img src="{{ '/images/home/debiased_flow_matching.png' | relative_url }}" alt="Debiased flow-matching schematic and CelebA counterfactual generation examples">
-      <svg viewBox="0 0 360 150" role="img" aria-hidden="true">
+    <div class="home-project-figure" aria-hidden="true">
+      <svg viewBox="0 0 360 160" role="img">
         <defs>
           <marker id="arrow-flow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" /></marker>
         </defs>
         <g class="svg-muted">
-          <circle cx="42" cy="49" r="8"/><circle cx="67" cy="77" r="8"/><circle cx="40" cy="102" r="8"/><circle cx="82" cy="42" r="8"/><circle cx="89" cy="106" r="8"/>
-          <circle cx="272" cy="43" r="8"/><circle cx="307" cy="67" r="8"/><circle cx="271" cy="91" r="8"/><circle cx="316" cy="105" r="8"/><circle cx="294" cy="122" r="8"/>
+          <circle cx="40" cy="48" r="7"/><circle cx="64" cy="73" r="7"/><circle cx="36" cy="96" r="7"/><circle cx="83" cy="41" r="7"/><circle cx="86" cy="102" r="7"/>
+          <circle cx="275" cy="43" r="7"/><circle cx="309" cy="63" r="7"/><circle cx="274" cy="90" r="7"/><circle cx="312" cy="104" r="7"/><circle cx="292" cy="121" r="7"/>
         </g>
-        <path class="svg-accent-line" d="M115 78 C155 35, 204 120, 248 76" marker-end="url(#arrow-flow)"/>
-        <text x="28" y="135">observational</text><text x="260" y="135">interventional</text>
+        <path class="svg-accent-line" d="M114 76 C150 34, 205 116, 252 72" marker-end="url(#arrow-flow)"/>
+        <text class="svg-caption" x="24" y="149">observational</text>
+        <text class="svg-caption" x="244" y="149">interventional</text>
       </svg>
-    </div>
     </div>
     <div class="home-project-body">
       <div class="home-project-meta">Generative modelling · causal inference</div>
-      <h3>Debiased Counterfactual Generation via Flow Matching</h3>
+      <h3>Debiased Counterfactual Generation via Flow Matching from Observations</h3>
       <p>Rather than learning an interventional distribution from scratch, we learn a <em>deconfounding flow</em> from the observed conditional distribution to its counterfactual target. The method combines flow matching with semiparametric debiasing and minimal-energy transports for high-dimensional outcomes.</p>
       <p class="home-project-links"><a href="https://arxiv.org/abs/2605.07665">Paper</a></p>
     </div>
   </article>
 
   <article class="home-project-card">
-    <div class="home-project-figure">
-      <img src="{{ '/images/home/cocycles.png' | relative_url }}" alt="Cocycle transports connecting intervention-indexed outcome distributions">
-      <svg viewBox="0 0 360 150" role="img" aria-hidden="true">
+    <div class="home-project-figure" aria-hidden="true">
+      <svg viewBox="0 0 360 150" role="img">
         <defs>
           <marker id="arrow-cocycle" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" /></marker>
         </defs>
-        <circle class="svg-node" cx="66" cy="105" r="22"/><circle class="svg-node" cx="180" cy="38" r="22"/><circle class="svg-node" cx="294" cy="105" r="22"/>
-        <path class="svg-accent-line" d="M85 92 L158 50" marker-end="url(#arrow-cocycle)"/>
-        <path class="svg-accent-line" d="M202 50 L275 92" marker-end="url(#arrow-cocycle)"/>
-        <path class="svg-muted-line" d="M90 112 L270 112" marker-end="url(#arrow-cocycle)"/>
-        <text x="58" y="112">x</text><text x="172" y="45">x′</text><text x="286" y="112">x″</text>
-        <text x="129" y="137">composition = direct map</text>
+        <circle class="svg-node" cx="72" cy="103" r="22"/>
+        <circle class="svg-node" cx="180" cy="43" r="22"/>
+        <circle class="svg-node" cx="288" cy="103" r="22"/>
+        <path class="svg-accent-line" d="M92 92 L158 55" marker-end="url(#arrow-cocycle)"/>
+        <path class="svg-accent-line" d="M202 55 L268 92" marker-end="url(#arrow-cocycle)"/>
+        <path class="svg-accent-line" d="M96 103 L264 103" marker-end="url(#arrow-cocycle)"/>
+        <text class="svg-node-label" x="72" y="108" text-anchor="middle">Y(x)</text>
+        <text class="svg-node-label" x="180" y="48" text-anchor="middle">Y(x′)</text>
+        <text class="svg-node-label" x="288" y="108" text-anchor="middle">Y(x″)</text>
       </svg>
-    </div>
     </div>
     <div class="home-project-body">
       <div class="home-project-meta">Counterfactuals · invariance · transport</div>
-      <h3>Counterfactual Cocycles</h3>
+      <h3>Counterfactual Cocycles: A Framework for Robust and Coherent Counterfactual Transports</h3>
       <p>We represent intervention-induced transformations through cocycles: maps with algebraic composition structure that identify coherent systems of interventional and counterfactual distributions. This yields estimators that can avoid unnecessary latent-noise modelling while retaining robustness and efficiency.</p>
       <p class="home-project-links"><a href="https://arxiv.org/abs/2405.13844">Paper</a> <span>·</span> <a href="https://github.com/HWDance/Cocycles">Code</a></p>
     </div>
   </article>
 
   <article class="home-project-card">
-    <div class="home-project-figure">
-      <img src="{{ '/images/home/interventional_processes.png' | relative_url }}" alt="Interventional-process uncertainty quantification with calibrated posterior bands and intervention samples">
-      <svg viewBox="0 0 360 150" role="img" aria-hidden="true">
-        <path class="svg-band" d="M22 110 C75 82, 108 55, 158 66 C216 79, 249 24, 338 39 L338 72 C254 61, 220 111, 158 96 C105 84, 72 112, 22 132 Z"/>
-        <path class="svg-accent-line" d="M22 121 C75 94, 108 68, 158 80 C216 94, 249 40, 338 54"/>
-        <line class="svg-axis" x1="22" y1="136" x2="340" y2="136"/><line class="svg-axis" x1="22" y1="136" x2="22" y2="20"/>
-        <circle class="svg-point" cx="79" cy="92" r="4"/><circle class="svg-point" cx="125" cy="76" r="4"/><circle class="svg-point" cx="206" cy="88" r="4"/><circle class="svg-point" cx="283" cy="57" r="4"/>
-        <text x="280" y="126">intervention</text>
+    <div class="home-project-figure" aria-hidden="true">
+      <svg viewBox="0 0 360 150" role="img">
+        <path class="svg-band" d="M24 109 C64 86, 92 60, 130 63 C170 66, 184 83, 218 76 C250 70, 277 44, 336 46 L336 78 C278 78, 251 101, 218 104 C182 108, 167 92, 130 91 C90 90, 62 112, 24 131 Z"/>
+        <path class="svg-accent-line" d="M24 120 C63 98, 92 75, 130 77 C168 78, 184 92, 218 90 C250 88, 278 62, 336 61"/>
+        <line class="svg-axis" x1="22" y1="136" x2="340" y2="136"/>
+        <line class="svg-axis" x1="22" y1="136" x2="22" y2="20"/>
+        <circle class="svg-point" cx="48" cy="113" r="3.4"/><circle class="svg-point" cx="68" cy="98" r="3.4"/><circle class="svg-point" cx="90" cy="91" r="3.4"/><circle class="svg-point" cx="112" cy="75" r="3.4"/><circle class="svg-point" cx="134" cy="87" r="3.4"/><circle class="svg-point" cx="158" cy="70" r="3.4"/><circle class="svg-point" cx="183" cy="97" r="3.4"/><circle class="svg-point" cx="207" cy="82" r="3.4"/><circle class="svg-point" cx="232" cy="99" r="3.4"/><circle class="svg-point" cx="256" cy="78" r="3.4"/><circle class="svg-point" cx="283" cy="70" r="3.4"/><circle class="svg-point" cx="312" cy="51" r="3.4"/>
+        <text class="svg-caption" x="281" y="126">intervention</text>
       </svg>
-    </div>
     </div>
     <div class="home-project-body">
       <div class="home-project-meta">Uncertainty quantification · Gaussian processes</div>
@@ -91,20 +90,22 @@ redirect_from:
   </article>
 
   <article class="home-project-card">
-    <div class="home-project-figure">
-      <img src="{{ '/images/home/fsm_mcmc.png' | relative_url }}" alt="Finite-state-machine representation of iterative MCMC control flow">
-      <svg viewBox="0 0 360 150" role="img" aria-hidden="true">
+    <div class="home-project-figure" aria-hidden="true">
+      <svg viewBox="0 0 360 150" role="img">
         <defs>
           <marker id="arrow-fsm" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" /></marker>
         </defs>
-        <rect class="svg-state" x="30" y="48" width="63" height="42" rx="8"/><rect class="svg-state" x="145" y="48" width="63" height="42" rx="8"/><rect class="svg-state" x="260" y="48" width="63" height="42" rx="8"/>
-        <path class="svg-accent-line" d="M93 69 L142 69" marker-end="url(#arrow-fsm)"/><path class="svg-accent-line" d="M208 69 L257 69" marker-end="url(#arrow-fsm)"/>
-        <path class="svg-muted-line" d="M176 47 C175 15, 260 15, 289 45" marker-end="url(#arrow-fsm)"/>
-        <text x="46" y="75">INIT</text><text x="158" y="75">STEP</text><text x="273" y="75">DONE</text>
-        <g class="svg-muted"><circle cx="72" cy="118" r="5"/><circle cx="100" cy="118" r="5"/><circle cx="128" cy="118" r="5"/><circle cx="156" cy="118" r="5"/><circle cx="184" cy="118" r="5"/><circle cx="212" cy="118" r="5"/><circle cx="240" cy="118" r="5"/><circle cx="268" cy="118" r="5"/></g>
-        <text x="102" y="141">asynchronous parallel chains</text>
+        <rect class="svg-state" x="40" y="49" width="63" height="38" rx="8"/>
+        <rect class="svg-state" x="148" y="49" width="63" height="38" rx="8"/>
+        <rect class="svg-state" x="256" y="49" width="63" height="38" rx="8"/>
+        <path class="svg-accent-line" d="M103 68 L145 68" marker-end="url(#arrow-fsm)"/>
+        <path class="svg-accent-line" d="M211 68 L253 68" marker-end="url(#arrow-fsm)"/>
+        <path class="svg-muted-line" d="M163 49 C143 18, 216 18, 197 49" marker-end="url(#arrow-fsm)"/>
+        <text class="svg-node-label" x="71" y="72" text-anchor="middle">INIT</text>
+        <text class="svg-node-label" x="180" y="72" text-anchor="middle">STEP</text>
+        <text class="svg-node-label" x="287" y="72" text-anchor="middle">DONE</text>
+        <text class="svg-caption" x="87" y="119">finite-state-machine control flow</text>
       </svg>
-    </div>
     </div>
     <div class="home-project-body">
       <div class="home-project-meta">Probabilistic ML · JAX · accelerators</div>
@@ -120,17 +121,22 @@ redirect_from:
 <div class="home-theme-grid">
   <section class="home-theme-card">
     <h3>Causal and counterfactual machine learning</h3>
-    <p>My work develops methods for reasoning about interventions and counterfactuals from observational data, including counterfactual transports, causal uncertainty quantification, causal discovery, and generative modelling of interventional distributions. Current work extends these ideas to partial identification, asking how dependence between potential outcomes can sharpen otherwise weak counterfactual bounds.</p>
+    <p>I develop methods for interventions and counterfactuals from observational data, including counterfactual transports, causal uncertainty quantification, causal discovery and interventional generation. Current work studies partial identification, using dependence between potential outcomes to sharpen counterfactual bounds.</p>
   </section>
 
   <section class="home-theme-card">
     <h3>Generative models and structured dynamical systems</h3>
-    <p>I use transport, flow matching and dynamical-systems perspectives to represent and learn transformations between distributions. Recent work includes debiased flow matching for interventional generation and velocity-based representations for causal discovery. I am now studying multi-parameter generative systems whose transformations satisfy stronger global properties such as path independence, composition and low-energy dynamics.</p>
+    <p>I use transport, flow matching and dynamical-systems perspectives to learn transformations between distributions. Recent work includes debiased flow matching for interventional generation and velocity-based causal discovery; current work develops multi-parameter flows with path independence, composition and low-energy dynamics.</p>
   </section>
 
   <section class="home-theme-card">
-    <h3>Latent structure, identifiability and abstraction</h3>
-    <p>A recurring theme in my work is exploiting invariance and compositional structure to remove unnecessary parameterisation while preserving the information required for inference. Building on counterfactual cocycles, I am studying latent-indexed families of transformations for dimension reduction, latent identification and extrapolation. More broadly, I am interested in how these ideas can inform causal abstraction and the understanding of complex learned systems.</p>
+    <h3>Latent structure, invariance and identifiability</h3>
+    <p>I exploit invariance and compositional structure to remove unnecessary parameterisation while preserving what is needed for inference. Building on counterfactual cocycles, current work studies latent-indexed transformations for dimension reduction, latent identification and extrapolation, with broader links to causal abstraction and learned representations.</p>
+  </section>
+
+  <section class="home-theme-card">
+    <h3>Probabilistic machine learning, uncertainty and computation</h3>
+    <p>I develop probabilistic methods for scalable inference and calibrated uncertainty, including Gaussian processes for high-dimensional variable selection and causal uncertainty quantification, and finite-state-machine representations of adaptive MCMC for efficient execution on modern accelerators.</p>
   </section>
 </div>
 
