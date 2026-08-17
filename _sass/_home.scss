@@ -1,0 +1,221 @@
+/* Homepage components ------------------------------------------------------ */
+.home-kicker {
+  margin-top: -0.35rem;
+  margin-bottom: 1.15rem;
+  font-size: 1.08em;
+  font-weight: 500;
+  color: $gray;
+}
+
+.home-intro {
+  max-width: 52rem;
+  font-size: 1.03em;
+  line-height: 1.72;
+}
+
+.home-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 1.35rem 0 2.4rem;
+}
+
+.home-links .btn {
+  margin: 0;
+  text-decoration: none;
+}
+
+.home-project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2.4rem;
+}
+
+.home-project-card,
+.home-theme-card,
+.home-software-card {
+  border: 1px solid mix(#fff, $gray, 72%);
+  border-radius: 8px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.home-project-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-project-figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 142px;
+  padding: 0.6rem 0.7rem 0.25rem;
+  background: mix(#fff, $lighter-gray, 60%);
+  border-bottom: 1px solid mix(#fff, $gray, 78%);
+}
+
+.home-project-figure svg {
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  height: 142px;
+  font-family: inherit;
+  font-size: 12px;
+  fill: $gray;
+}
+
+.home-project-figure .svg-accent-line,
+.home-project-figure .svg-muted-line,
+.home-project-figure .svg-axis {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.home-project-figure .svg-accent-line {
+  stroke: $link-color;
+  stroke-width: 2.4;
+}
+
+.home-project-figure .svg-muted-line {
+  stroke: mix(#fff, $gray, 25%);
+  stroke-width: 1.8;
+}
+
+.home-project-figure .svg-axis {
+  stroke: mix(#fff, $gray, 35%);
+  stroke-width: 1.2;
+}
+
+.home-project-figure marker path {
+  fill: $link-color;
+}
+
+.home-project-figure .svg-muted circle,
+.home-project-figure .svg-point {
+  fill: mix(#fff, $link-color, 22%);
+  stroke: $link-color;
+  stroke-width: 1.2;
+}
+
+.home-project-figure .svg-node,
+.home-project-figure .svg-state {
+  fill: #fff;
+  stroke: $link-color;
+  stroke-width: 2;
+}
+
+.home-project-figure .svg-band {
+  fill: mix(#fff, $link-color, 82%);
+  stroke: none;
+}
+
+.home-project-body {
+  padding: 1rem 1.05rem 1.05rem;
+}
+
+.home-project-meta {
+  margin-bottom: 0.35rem;
+  color: $gray;
+  font-size: 0.72em;
+  font-weight: 600;
+  letter-spacing: 0.035em;
+  text-transform: uppercase;
+}
+
+.home-project-card h3,
+.home-theme-card h3,
+.home-software-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.55rem;
+  font-size: 1.03em;
+  line-height: 1.3;
+}
+
+.home-project-card p,
+.home-theme-card p,
+.home-software-card p {
+  font-size: 0.9em;
+  line-height: 1.55;
+}
+
+.home-project-links {
+  margin-bottom: 0;
+  font-size: 0.84em !important;
+  font-weight: 600;
+}
+
+.home-project-links span {
+  padding: 0 0.25rem;
+  color: $light-gray;
+}
+
+.home-theme-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin: 1rem 0 2.4rem;
+}
+
+.home-theme-card {
+  padding: 1rem;
+  border-top: 3px solid $link-color;
+}
+
+.home-theme-card p {
+  margin-bottom: 0;
+}
+
+.home-software-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin: 1rem 0 2.4rem;
+}
+
+.home-software-card {
+  padding: 1rem;
+}
+
+.home-software-card p {
+  margin-bottom: 0.85rem;
+}
+
+.home-software-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.32rem;
+}
+
+.home-software-tags span {
+  display: inline-block;
+  padding: 0.18rem 0.42rem;
+  border-radius: 999px;
+  background: mix(#fff, $lighter-gray, 30%);
+  color: $gray;
+  font-size: 0.66em;
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .home-theme-grid,
+  .home-software-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .home-project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-project-figure {
+    min-height: 125px;
+  }
+
+  .home-project-figure svg {
+    height: 125px;
+  }
+}
