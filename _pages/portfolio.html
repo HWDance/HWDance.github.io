@@ -5,10 +5,52 @@ permalink: /portfolio/
 author_profile: true
 ---
 
-{% include base_path %}
+<p class="industry-intro">Before commencing my PhD, I spent around five years as an econometrician in PwC's Economic Consulting team in London (2016–2020 and 2021–2022), working across causal inference, forecasting, Bayesian modelling and applied policy research. Selected projects are highlighted below.</p>
 
+<div class="industry-list">
+  <article class="industry-card">
+    <div class="industry-card-content">
+      <div class="industry-meta">2019 <span>·</span> Causal inference</div>
+      <h2>Estimating the effect of SME lending on growth</h2>
+      <p>I was lead econometrician on a project for a large global retail bank estimating the effect of SME lending products on subsequent revenue growth. Because the client observed only firms participating in its programme, we combined its data with a wider SME database and used non-parametric propensity-score caliper matching over a high-dimensional set of potential confounders to construct a comparison group. The analysis found positive effects on firm growth and contributed to the client's annual sustainability reporting.</p>
+    </div>
+    <div class="industry-figures industry-figures--two" aria-label="Matching diagnostics">
+      <img src="{{ '/images/matching.png' | relative_url }}" alt="Illustration of matched treated and control firms">
+      <img src="{{ '/images/prop_scores.png' | relative_url }}" alt="Propensity-score diagnostics">
+    </div>
+  </article>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+  <article class="industry-card">
+    <div class="industry-card-content">
+      <div class="industry-meta">2017–2020; 2021–2022 <span>·</span> Forecasting &amp; Bayesian modelling</div>
+      <h2>Nowcasting UK GDP growth</h2>
+      <p>I developed and maintained PwC's UK GDP nowcasting model, using high-frequency economic indicators to predict quarterly GDP before official releases. The system evolved from regularised high-dimensional regression to Bayesian variable-selection models with shrinkage priors and a bespoke MCMC algorithm, enabling sparse modelling, incorporation of prior economic structure and uncertainty quantification. The original model was published in the <a href="https://www.pwc.co.uk/economic-services/ukeo/pwcukeo-section4-nowcasting-july-2017.pdf">PwC UK Economic Outlook</a>.</p>
+    </div>
+    <div class="industry-figures industry-figures--single">
+      <img src="{{ '/images/pwc_nowcasting_17.png' | relative_url }}" alt="PwC UK GDP nowcasting model">
+    </div>
+  </article>
 
+  <article class="industry-card">
+    <div class="industry-card-content">
+      <div class="industry-meta">2018 &amp; 2020 <span>·</span> Causal inference &amp; policy evaluation</div>
+      <h2>Executive pay, share buybacks and investment</h2>
+      <p>I was PwC's lead econometrician on two projects commissioned by the UK Department for Business, Energy and Industrial Strategy, in collaboration with Professor Alex Edmans at London Business School. We studied whether CEO incentive targets affected share buybacks and investment, using identification strategies including fuzzy regression discontinuity designs around earnings-per-share targets. The resulting reports are available from the UK Government: <a href="https://assets.publishing.service.gov.uk/media/5d2f0e83e5274a14e9f6bbe5/share-repurchases-executive-pay-investment.pdf">2018 report</a> and <a href="https://assets.publishing.service.gov.uk/media/60b8d8628fa8f57cf05a64c6/exec-pay-investment-research-report.pdf">2020 report</a>.</p>
+    </div>
+    <div class="industry-figures industry-figures--two">
+      <img src="{{ '/images/illustrative_discontinuity_plot.png' | relative_url }}" alt="Illustration of a regression discontinuity design">
+      <img src="{{ '/images/threshold_comparisons.png' | relative_url }}" alt="Threshold comparisons for the executive-pay study">
+    </div>
+  </article>
+
+  <article class="industry-card">
+    <div class="industry-card-content">
+      <div class="industry-meta">2018–2020 <span>·</span> Causal discovery &amp; time-varying models</div>
+      <h2>Marketing effectiveness for a global airline</h2>
+      <p>Working with <a href="https://market.science">marketscience</a>, I developed models for marketing allocation and sales attribution for a leading international airline. We used likelihood-based causal discovery to identify relationships between channels, confounders and mediators, together with non-stationary time-varying parameter models to separate short- and long-run marketing effects more flexibly than standard adstock approaches.</p>
+    </div>
+    <div class="industry-figures industry-figures--single">
+      <img src="{{ '/images/marketing_effectiveness.png' | relative_url }}" alt="Marketing effectiveness illustration">
+    </div>
+  </article>
+</div>
