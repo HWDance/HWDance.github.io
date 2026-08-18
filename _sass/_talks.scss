@@ -1,0 +1,55 @@
+/* Talks page --------------------------------------------------------------- */
+.talks-intro {
+  margin-bottom: 1.5rem;
+  color: $gray;
+}
+
+.talk-list {
+  margin: 0.6rem 0 2.8rem;
+}
+
+.talk-entry {
+  padding: 1rem 0 1.05rem;
+  border-bottom: 1px solid mix(#fff, $gray, 82%);
+}
+
+.talk-entry:first-child {
+  padding-top: 0.25rem;
+}
+
+.talk-entry:last-child {
+  border-bottom: 0;
+}
+
+.talk-venue {
+  color: $darker-gray;
+  font-size: 1.01em;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.talk-meta {
+  margin-top: 0.12rem;
+  color: $gray;
+  font-size: 0.84em;
+  line-height: 1.45;
+}
+
+.talk-meta span,
+.talk-links span {
+  padding: 0 0.32rem;
+  color: $light-gray;
+}
+
+.talk-title {
+  margin-top: 0.35rem;
+  font-size: 0.93em;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.talk-links {
+  margin-top: 0.28rem;
+  font-size: 0.83em;
+  font-weight: 600;
+}

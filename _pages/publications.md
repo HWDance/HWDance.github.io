@@ -9,39 +9,7 @@ author_profile: true
 <p class="publications-intro">A complete citation record is also available on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
 {% endif %}
 
-## Peer-reviewed publications
-
-<div class="publication-list">
-  <article class="publication-entry">
-    <div class="publication-title">Interventional Processes for Causal Uncertainty Quantification</div>
-    <div class="publication-authors"><strong>Hugh Dance</strong>, Peter Orbanz, Arthur Gretton</div>
-    <div class="publication-venue">Proceedings of the 43rd International Conference on Machine Learning (ICML 2026)</div>
-    <div class="publication-links"><a href="https://arxiv.org/abs/2410.14483">Paper</a></div>
-  </article>
-
-  <article class="publication-entry">
-    <div class="publication-title">Distinguishing Cause from Effect with Causal Velocity Models</div>
-    <div class="publication-authors">Johnny Xi, <strong>Hugh Dance</strong>, Peter Orbanz, Benjamin Bloem-Reddy</div>
-    <div class="publication-venue">International Conference on Machine Learning (ICML 2025)</div>
-    <div class="publication-links"><a href="https://arxiv.org/abs/2502.05122">Paper</a><span>·</span><a href="https://github.com/xijohnny/cd-ode-cocycle">Code</a></div>
-  </article>
-
-  <article class="publication-entry">
-    <div class="publication-title">Efficiently Vectorized MCMC on Modern Accelerators</div>
-    <div class="publication-authors"><strong>Hugh Dance</strong>, Pierre Glaser, Peter Orbanz, Ryan P. Adams</div>
-    <div class="publication-venue">Proceedings of the 42nd International Conference on Machine Learning (ICML 2025) <span class="publication-award">Spotlight</span></div>
-    <div class="publication-links"><a href="https://proceedings.mlr.press/v267/dance25a.html">Paper</a><span>·</span><a href="https://github.com/HWDance/jax-fsm-mcmc">Code</a></div>
-  </article>
-
-  <article class="publication-entry">
-    <div class="publication-title">Fast and Scalable Spike and Slab Variable Selection in High-Dimensional Gaussian Processes</div>
-    <div class="publication-authors"><strong>Hugh Dance</strong>, Brooks Paige</div>
-    <div class="publication-venue">Proceedings of the 25th International Conference on Artificial Intelligence and Statistics (AISTATS 2022) <span class="publication-award">Oral presentation</span></div>
-    <div class="publication-links"><a href="https://proceedings.mlr.press/v151/dance22a.html">Paper</a><span>·</span><a href="https://github.com/HWDance/SSVGP">Code</a></div>
-  </article>
-</div>
-
-## Preprints, revisions & forthcoming
+## Preprints & manuscripts
 
 <div class="publication-list">
   <article class="publication-entry">
@@ -64,6 +32,40 @@ author_profile: true
     <div class="publication-links"><a href="https://arxiv.org/abs/2405.13844">Paper</a><span>·</span><a href="https://github.com/HWDance/Cocycles">Code</a></div>
   </article>
 </div>
+
+
+## Peer-reviewed publications
+
+<div class="publication-list">
+  <article class="publication-entry">
+    <div class="publication-title">Interventional Processes for Causal Uncertainty Quantification</div>
+    <div class="publication-authors"><strong>Hugh Dance</strong>, Peter Orbanz, Arthur Gretton</div>
+    <div class="publication-venue">Proceedings of the 43rd International Conference on Machine Learning (ICML 2026)</div>
+    <div class="publication-links"><a href="https://arxiv.org/abs/2410.14483">Paper</a></div>
+  </article>
+
+  <article class="publication-entry">
+    <div class="publication-title">Distinguishing Cause from Effect with Causal Velocity Models</div>
+    <div class="publication-authors">Johnny Xi, <strong>Hugh Dance</strong>, Peter Orbanz, Benjamin Bloem-Reddy</div>
+    <div class="publication-venue">Proceedings of the 42nd International Conference on Machine Learning (ICML 2025)</div>
+    <div class="publication-links"><a href="https://arxiv.org/abs/2502.05122">Paper</a><span>·</span><a href="https://github.com/xijohnny/cd-ode-cocycle">Code</a></div>
+  </article>
+
+  <article class="publication-entry">
+    <div class="publication-title">Efficiently Vectorized MCMC on Modern Accelerators</div>
+    <div class="publication-authors"><strong>Hugh Dance</strong>, Pierre Glaser, Peter Orbanz, Ryan P. Adams</div>
+    <div class="publication-venue">Proceedings of the 42nd International Conference on Machine Learning (ICML 2025) <span class="publication-award">Spotlight</span></div>
+    <div class="publication-links"><a href="https://proceedings.mlr.press/v267/dance25a.html">Paper</a><span>·</span><a href="https://github.com/HWDance/jax-fsm-mcmc">Code</a></div>
+  </article>
+
+  <article class="publication-entry">
+    <div class="publication-title">Fast and Scalable Spike and Slab Variable Selection in High-Dimensional Gaussian Processes</div>
+    <div class="publication-authors"><strong>Hugh Dance</strong>, Brooks Paige</div>
+    <div class="publication-venue">Proceedings of the 25th International Conference on Artificial Intelligence and Statistics (AISTATS 2022) <span class="publication-award">Oral presentation</span></div>
+    <div class="publication-links"><a href="https://proceedings.mlr.press/v151/dance22a.html">Paper</a><span>·</span><a href="https://github.com/HWDance/SSVGP">Code</a></div>
+  </article>
+</div>
+
 
 ## Selected industry & policy publications
 

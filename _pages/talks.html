@@ -5,25 +5,27 @@ permalink: /talks/
 author_profile: true
 ---
 
-<ul class="talks-list">
+<p class="talks-intro">Selected research talks and presentations.</p>
+
+<div class="talk-list">
 {%- assign talks = site.talks | sort: "date" | reverse -%}
 {% for t in talks %}
-  <li>
-    <span class="archive__item-title">
-      <a href="{{ t.url | relative_url }}">{{ t.title }}</a>
-    </span>
-    {%- if t.venue or t.location or t.date -%}
-      — 
-      {%- if t.venue    %}{{ t.venue }}{% endif -%}
-      {%- if t.location %}{% if t.venue %}, {% endif %}{{ t.location }}{% endif -%}
-      {%- if t.date     %} ({{ t.date | date: "%b %Y" }}){% endif -%}
+  <article class="talk-entry">
+    <div class="talk-venue">{{ t.venue }}</div>
+    <div class="talk-meta">
+      {%- if t.location %}{{ t.location }}{% endif -%}
+      {%- if t.location and t.date %}<span>·</span>{% endif -%}
+      {%- if t.date %}{{ t.date | date: "%b %Y" }}{% endif -%}
+      {%- if t.note %}<span>·</span>{{ t.note }}{% endif -%}
+    </div>
+    <div class="talk-title">{{ t.title }}</div>
+    {%- if t.slides or t.recording or t.paperurl -%}
+    <div class="talk-links">
+      {%- if t.slides %}<a href="{{ t.slides | relative_url }}">Slides</a>{% endif -%}
+      {%- if t.recording %}{% if t.slides %}<span>·</span>{% endif %}<a href="{{ t.recording }}">Recording</a>{% endif -%}
+      {%- if t.paperurl %}{% if t.slides or t.recording %}<span>·</span>{% endif %}<a href="{{ t.paperurl }}">Paper</a>{% endif -%}
+    </div>
     {%- endif -%}
-
-    {%- if t.slidesurl or t.paperurl -%}
-      <br>
-      {%- if t.slidesurl %}<a href="{{ t.slidesurl }}">slides</a>{% endif -%}
-      {%- if t.paperurl  %}{% if t.slidesurl %} • {% endif %}<a href="{{ t.paperurl }}">paper</a>{% endif -%}
-    {%- endif -%}
-  </li>
+  </article>
 {% endfor %}
-</ul>
+</div>
