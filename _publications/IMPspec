@@ -1,11 +1,11 @@
 ---
-title: "Spectral Representations for Accurate Causal Uncertainty Quantification with Gaussian Processes"
+title: "Interventional Processes for Causal Uncertainty Quantification"
 collection: publications
 permalink: /publication/IMPspec
 link: 'https://arxiv.org/abs/2410.14483'
 excerpt: ''
 date: 2024-10-18
-venue: 'To be submitted'
+venue: 'International Conference on Machine Learning (ICML 2026)'
 paperurl: 'https://arxiv.org/pdf/2410.14483'
-citation: 'Dance, H., Orbanz, P. and Gretton, A. (2024). &quot; Spectral Representations for Accurate Causal Uncertainty Quantification with Gaussian Processes.&quot; arXiv:2410.14483'
+citation: 'Dance, H., Orbanz, P. and Gretton, A. (2026). &quot; Interventional Processes for Causal Uncertainty Quantification.&quot; arXiv:2410.14483'
 ---

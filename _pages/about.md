@@ -7,10 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-<p class="home-kicker">PhD researcher in causal machine learning at the Gatsby Unit, University College London.</p>
+<p class="home-kicker">PhD researcher in machine learning at the Gatsby Unit, University College London.</p>
 
 <div class="home-intro">
-  <p>I am a PhD researcher in machine learning at the Gatsby Unit, UCL, working primarily on causal and probabilistic machine learning. My research develops methods and algorithms that exploit invariance, compositional structure and transport-based representations to make causal inference and generative modelling more robust, interpretable and computationally efficient. Recent work includes counterfactual transports and cocycles, generative modelling of interventional distributions using flow matching, causal uncertainty quantification, and accelerator-efficient Monte Carlo methods. More broadly, I am interested in how causal and statistical structure can help us understand, manipulate and reason about complex learned systems, including questions around representation, identifiability, abstraction and reliable intervention.</p>
+  <p>I am a machine-learning researcher interested in how model structure and geometry determine what we can learn, infer, and control. My research to date has focused on identifying and exploiting invariances, symmetries, and compositional structure to develop new theory and algorithms for causal inference, uncertainty quantification, and scalable inference. I've recently begun applying similar ideas to study how neural-network geometry and learning dynamics shape the limits and effectiveness of post-training interventions, and how these might be improved to enable more reliable control of language-model behaviour for AI alignment and safety.</p>
 </div>
 
 <div class="home-links" aria-label="Research profile links">
@@ -41,7 +41,7 @@ redirect_from:
       <div class="home-project-meta">Generative modelling · causal inference</div>
       <h3>Debiased Counterfactual Generation via Flow Matching from Observations</h3>
       <p>Rather than learning an interventional distribution from scratch, we learn a <em>deconfounding flow</em> from the observed conditional distribution to its counterfactual target. The method combines flow matching with semiparametric debiasing and minimal-energy transports for high-dimensional outcomes.</p>
-      <p class="home-project-links"><a href="https://arxiv.org/abs/2605.07665">Paper</a></p>
+      <p class="home-project-links"><a href="https://arxiv.org/abs/2605.07665">Paper</a> <span>·</span> <strong>NeurIPS 2026</strong></p>
     </div>
   </article>
 
@@ -66,7 +66,7 @@ redirect_from:
       <div class="home-project-meta">Counterfactuals · invariance · transport</div>
       <h3>Counterfactual Cocycles: A Framework for Robust and Coherent Counterfactual Transports</h3>
       <p>We represent intervention-induced transformations through cocycles: maps with algebraic composition structure that identify coherent systems of interventional and counterfactual distributions. This yields estimators that can avoid unnecessary latent-noise modelling while retaining robustness and efficiency.</p>
-      <p class="home-project-links"><a href="https://arxiv.org/abs/2405.13844">Paper</a> <span>·</span> <a href="https://github.com/HWDance/Cocycles">Code</a></p>
+      <p class="home-project-links"><a href="https://arxiv.org/abs/2405.13844">Paper</a> <span>·</span> <a href="https://github.com/HWDance/Cocycles">Code</a> <span>·</span> <strong>In revision, JMLR</strong></p>
     </div>
   </article>
 
@@ -130,8 +130,8 @@ redirect_from:
   </section>
 
   <section class="home-theme-card">
-    <h3>Latent structure, invariance and identifiability</h3>
-    <p>I exploit invariance and compositional structure to remove unnecessary parameterisation while preserving what is needed for inference. Building on counterfactual cocycles, current work studies latent-indexed transformations for dimension reduction, latent identification and extrapolation, with broader links to causal abstraction and learned representations.</p>
+    <h3>Model control for AI alignment and safety</h3>
+    <p>I've recently begun studying how the geometry of learned neural-network representations and their training dynamics determine the limits of post-training interventions, particularly activation steering. I'm interested in how functionally equivalent networks can differ in steerability, and whether training or fine-tuning can make targeted behavioural changes easier to achieve without unwanted interference.</p>
   </section>
 
   <section class="home-theme-card">

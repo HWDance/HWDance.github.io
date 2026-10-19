@@ -9,34 +9,16 @@ author_profile: true
 <p class="publications-intro">A complete citation record is also available on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
 {% endif %}
 
-## Preprints & manuscripts
+## Peer-reviewed publications
 
 <div class="publication-list">
   <article class="publication-entry">
     <div class="publication-title">Debiased Counterfactual Generation via Flow Matching from Observations</div>
     <div class="publication-authors"><strong>Hugh Dance</strong>, Johnny Xi, Peter Orbanz, Benjamin Bloem-Reddy</div>
-    <div class="publication-venue">Under review at NeurIPS 2026</div>
+    <div class="publication-venue">40th Annual Conference on Neural Information Processing Systems (NeurIPS 2026)</div>
     <div class="publication-links"><a href="https://arxiv.org/abs/2605.07665">Paper</a></div>
   </article>
 
-  <article class="publication-entry">
-    <div class="publication-title">Neural Autonomous Differential Equations: Integration-Free Learning for Time-Invariant Dynamics</div>
-    <div class="publication-authors">Mohadeseh Shafiei Kafraj, <strong>Hugh Dance</strong>, Johnny Xi, Reidar Riveland, Peter E. Latham, Peter Orbanz</div>
-    <div class="publication-venue">Under review at NeurIPS 2026</div>
-  </article>
-
-  <article class="publication-entry">
-    <div class="publication-title">Counterfactual Cocycles: A Framework for Robust and Coherent Counterfactual Transports</div>
-    <div class="publication-authors"><strong>Hugh Dance</strong>, Benjamin Bloem-Reddy</div>
-    <div class="publication-venue">In revision at the Journal of Machine Learning Research</div>
-    <div class="publication-links"><a href="https://arxiv.org/abs/2405.13844">Paper</a><span>·</span><a href="https://github.com/HWDance/Cocycles">Code</a></div>
-  </article>
-</div>
-
-
-## Peer-reviewed publications
-
-<div class="publication-list">
   <article class="publication-entry">
     <div class="publication-title">Interventional Processes for Causal Uncertainty Quantification</div>
     <div class="publication-authors"><strong>Hugh Dance</strong>, Peter Orbanz, Arthur Gretton</div>
@@ -63,6 +45,29 @@ author_profile: true
     <div class="publication-authors"><strong>Hugh Dance</strong>, Brooks Paige</div>
     <div class="publication-venue">Proceedings of the 25th International Conference on Artificial Intelligence and Statistics (AISTATS 2022) <span class="publication-award">Oral presentation</span></div>
     <div class="publication-links"><a href="https://proceedings.mlr.press/v151/dance22a.html">Paper</a><span>·</span><a href="https://github.com/HWDance/SSVGP">Code</a></div>
+  </article>
+</div>
+
+## Preprints & manuscripts
+
+<div class="publication-list">
+  <article class="publication-entry">
+    <div class="publication-title">Sampling Interventional Distributions with Orthogonal MMD Flows</div>
+    <div class="publication-authors">Bariscan Bozkurt, <strong>Hugh Dance</strong>, Zhonghao Chen, Alexandre Galashov, Arthur Gretton, Houssam Zenati</div>
+    <div class="publication-venue">Under review, AISTATS 2027</div>
+  </article>
+
+  <article class="publication-entry">
+    <div class="publication-title">Neural Autonomous Differential Equations: Integration-Free Learning for Time-Invariant Dynamics</div>
+    <div class="publication-authors">Mohadeseh Shafiei Kafraj, <strong>Hugh Dance</strong>, Johnny Xi, Reidar Riveland, Peter E. Latham, Peter Orbanz</div>
+    <div class="publication-venue">Under review, ICLR 2027</div>
+  </article>
+
+  <article class="publication-entry">
+    <div class="publication-title">Counterfactual Cocycles: A Framework for Robust and Coherent Counterfactual Transports</div>
+    <div class="publication-authors"><strong>Hugh Dance</strong>, Benjamin Bloem-Reddy</div>
+    <div class="publication-venue">In revision, Journal of Machine Learning Research (JMLR)</div>
+    <div class="publication-links"><a href="https://arxiv.org/abs/2405.13844">Paper</a><span>·</span><a href="https://github.com/HWDance/Cocycles">Code</a></div>
   </article>
 </div>
 
